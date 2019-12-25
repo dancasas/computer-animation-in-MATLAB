@@ -9,3 +9,5 @@
 3. Character Animation
     1. Face Animation
     2. Human Animation
+    
+## 1. Interpolation
