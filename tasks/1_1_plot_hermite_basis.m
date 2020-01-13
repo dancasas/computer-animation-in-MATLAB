@@ -3,13 +3,13 @@ function plot_hermite_basis()
     hold on;
     grid on;
                 
-    % Rango
+    % Range
     x = 0:0.0001:1;
                 
     H0 = 2*x.^3 - 3*x.^2 +1 ;
     plot(x,H0);
 
-    % Completar...
+    % plot the rest of Hermite basis
     
     hold off;
 end 
