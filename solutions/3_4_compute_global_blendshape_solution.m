@@ -1,7 +1,7 @@
 function compute_global_blendshapes()
     close all
      
-    blendshape_path = '../data/blendshapes/model01/tri'
+    blendshape_path = '../data/blendshapes/'
      
     % Reads and vectorizes mesh
     [V00,F] = read_vertices_and_faces_from_obj_file(strcat(blendshape_path,'/neutral-tri.obj'));
