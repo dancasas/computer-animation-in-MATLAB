@@ -10,7 +10,7 @@ function incrementalWarpingForward()
     gif_path_morphed = './output/morphed_forward_warp.gif'; 
     
     % loads image 1
-    im1_original = imread('../test_images/triangleA.jpg');
+    im1_original = imread('../data/test_images/triangleA.jpg');
     
     % rescales image 1 to 256x256
     im1(:,:,1) = imresize(im1_original(:,:,1), [256 256]); 
@@ -18,7 +18,7 @@ function incrementalWarpingForward()
     im1(:,:,3) = imresize(im1_original(:,:,3), [256 256]); 
     
     % loads image 2 
-    im2_original = imread('../test_images/triangleB.jpg');
+    im2_original = imread('../data/test_images/triangleB.jpg');
     
     % rescales image 1 to 256x256
     im2(:,:,1) = imresize(im2_original(:,:,1), [256 256]); 
