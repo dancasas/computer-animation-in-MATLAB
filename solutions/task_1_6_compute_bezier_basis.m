@@ -1,4 +1,4 @@
-function 1_6_compute_bezier_basis()
+function task_1_6_compute_bezier_basis()
     figure;
     hold on;
     grid on;
