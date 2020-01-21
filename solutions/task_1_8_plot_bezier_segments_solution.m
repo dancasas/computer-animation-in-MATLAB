@@ -1,4 +1,4 @@
-function bezier_joint()
+function task_1_8_plot_bezier_segments_solution.m()
     cla
     xlim([0 50])
     axis equal
