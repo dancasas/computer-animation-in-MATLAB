@@ -8,10 +8,13 @@ function task_2_3_incremental_warp_backward_solution()
     % output gif for warping animation
     gif_path_s_to_t = './output/source_to_target_backward_warp.gif';
     gif_path_t_to_s = './output/target_to_source_backward_warp.gif'; 
-    gif_path_morphed = './output/morphed_backward_warp.gif';  
+    gif_path_morphed = './output/morphed_backward_warp.gif';
+    
+    % creates output folder if does not exist
+    if (~exist('./output', 'dir')); mkdir('./output'); end
     
     % loads image 1
-    im1_original = imread('../data/test_images/triangleA2.jpg');
+    im1_original = imread('../data/test_images/triangleA.jpg');
     
     % rescales image 1 to 256x256
     im1(:,:,1) = imresize(im1_original(:,:,1), [256 256]); 
@@ -19,7 +22,7 @@ function task_2_3_incremental_warp_backward_solution()
     im1(:,:,3) = imresize(im1_original(:,:,3), [256 256]); 
     
     % loads image 2 
-    im2_original = imread('../data/test_images/triangleB2.jpg');
+    im2_original = imread('../data/test_images/triangleB.jpg');
     
     % rescales image 1 to 256x256
     im2(:,:,1) = imresize(im2_original(:,:,1), [256 256]); 
@@ -89,7 +92,7 @@ function task_2_3_incremental_warp_backward_solution()
         
         % Find affine transformation of each triangle
         for tri=1:num_triangles
-           fprintf('Triangle %d\n',tri)
+           fprintf('Computing transformation for triangle %d at t=%.02f\n',tri, t);
            tri_vertices = triangles1(tri, :);
 
            % retreives vertex positions of the triangle in image 1 (source)
