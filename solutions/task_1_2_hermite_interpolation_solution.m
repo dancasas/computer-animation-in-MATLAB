@@ -1,4 +1,4 @@
-function 1_2_hermite_interpolation_solution(f_0, f_1, f_0_deriv, f_1_deriv)
+function task_1_2_hermite_interpolation_solution(f_0, f_1, f_0_deriv, f_1_deriv)
     x = 0:0.0001:1;
     figure;
     hold on;
