@@ -1,4 +1,4 @@
-function skeleton_demo()
+function task_3_1_plot_skeleton_solution()
     
     close all;
 
