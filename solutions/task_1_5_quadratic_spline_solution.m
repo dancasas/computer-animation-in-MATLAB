@@ -1,4 +1,4 @@
-function 1_5_quadratic_spline_solution()
+function task_1_5_quadratic_spline_solution()
     hold on;
     grid on;
     % Sample points. Let's interpolate them with quadratic slpines
