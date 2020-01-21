@@ -1,4 +1,4 @@
-function 1_4_lagrange_from_sampled_function()
+function task_1_4_lagrange_from_sampled_function()
     
     % Sample points
     hold on;
