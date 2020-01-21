@@ -1,4 +1,4 @@
-function skeleton_demo()
+function task_3_2_inverse_kinematics_2D_solution()
     
     close all;
 
