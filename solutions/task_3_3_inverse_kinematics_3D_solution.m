@@ -1,5 +1,5 @@
 
-function 3_3_inverse_kinematics_3D_solution()
+function task_3_3_inverse_kinematics_3D_solution()
     cla;
     
     trans0 = [0,0,0];
