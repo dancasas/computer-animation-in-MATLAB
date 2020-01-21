@@ -1,4 +1,4 @@
-function 1_7_plot_cubic_bezier_solution()
+function task_1_7_plot_cubic_bezier_solution()
     figure();
     pt1 = [ 5;-10];
     pt2 = [9; 38];
