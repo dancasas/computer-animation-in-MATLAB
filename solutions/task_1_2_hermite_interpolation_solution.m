@@ -1,11 +1,15 @@
-function task_1_2_hermite_interpolation_solution(f_0, f_1, f_0_deriv, f_1_deriv)
+function task_1_2_hermite_interpolation_solution()
+    f_0 = 1;
+    f_1 = 1;
+    f_0_deriv = 0;
+    f_1_deriv = 1;
     x = 0:0.0001:1;
     figure;
     hold on;
     axis equal;
     grid on;
-    scatter(0,h0, 100,'r','filled')
-    scatter(1,h1, 100,'r','filled')
+    scatter(0, f_0, 100,'r','filled');
+    scatter(1, f_1, 100,'r','filled');
     
     % Hermite matrix H
     H = [2 -3 0 1; -2 3 0 0; 1 -2 1 0; 1 -1 0 0]';
