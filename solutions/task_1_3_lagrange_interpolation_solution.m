@@ -1,4 +1,4 @@
-function 1_3_lagrange_interpolation_solution()
+function task_1_3_lagrange_interpolation_solution()
     % Sample points
     hold on;
     grid on;
