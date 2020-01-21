@@ -1,4 +1,4 @@
-function 1_1_plot_hermite_basis()
+function task_1_1_plot_hermite_basis()
     figure;
     hold on;
     grid on;
