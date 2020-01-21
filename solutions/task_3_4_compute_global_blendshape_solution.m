@@ -1,4 +1,4 @@
-function compute_global_blendshapes()
+function task_3_4_compute_global_blendshape_solution()
     close all
      
     blendshape_path = '../data/blendshapes/'
