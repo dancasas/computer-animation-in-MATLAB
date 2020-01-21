@@ -1,5 +1,5 @@
 
-function bezier_cubic()
+function task_1_9_plot_bezier_equidistant_points()
     figure();
     pt1 = [ 5;-10];
     pt2 = [9; 38];
